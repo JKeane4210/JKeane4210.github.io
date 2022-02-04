@@ -1,0 +1,135 @@
+/*/* Split the screen in half */
+.split {
+  /*height: 100%;*/
+  position: fixed;
+  /*z-index: 1;*/
+  /*top: 0;*/
+  /*overflow-x: hidden;*/
+}
+
+/* Control the left side */
+.left {
+  width: 10%;
+  left: 0;
+  /*background-color: #5cdb95;*/
+}
+
+/* Control the right side */
+.right {
+  width: 90%;
+  right: 0;
+  /*background-color: #05386b;*/
+}
+
+.spaced {
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+
+.contact-info {
+
+}
+
+.nav-btn {
+  min-width: 200px;
+}
+
+h1, h2, h3, p {
+  /*color: #edf5e1;*/
+  text-align: left;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  padding: 8px;
+  font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_btn {
+  border-radius: 10px;
+  background-color: #5cdb95; 
+  color: #05386b;
+  border: 1px solid #5cdb95;
+}
+
+.main_btn:hover {
+  background-color: #05386b;
+  border: 1px solid #05386b;
+  color: #8ee4af;
+}
+
+.sub_btn {
+  border-radius: 10px;
+  background-color: #05386b; 
+  color: #5cdb95;
+  border: 1px solid #edf5e1;
+}
+
+.sub_btn:hover {
+  background-color: #5cdb95;
+  border: 1px solid #edf5e1;
+  color: #05386b;
+}
+
+.video_btn {
+  border-radius: 20px;
+  background-color: #05386b; 
+  color: #edf5e1;
+  border: 2px solid #edf5e1;
+  width: 100%;
+}
+
+.video_btn:hover {
+  background-color: #edf5e1;
+  border: 2px solid #edf5e1;
+  color: #05386b;
+}
+
+img {
+  float: left;
+  padding: 10px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  /*border-radius: 50%;*/
+}
+
+.video_wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  /*background-color: #05386b;*/
+}
+
+.sub_th {
+  width: 33%;
+}
+
+td {
+  text-align: center;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #edf5e1;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #edf5e1;
+  padding: 5px;
+  font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/*/

@@ -1,3 +1,31 @@
+.row {
+  display: flex;
+}
+
+.profile-img {
+  width: 300px;
+  height: auto;
+}
+
+.project-img {
+  border-radius: 15%;
+  width: 100px;
+  height: auto;
+}
+
+.project-right {
+  margin-left: 20px;
+}
+
+.project {
+  background-color: #042d5c;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 footer {
   position: absolute;
   bottom: 0;
@@ -39,6 +67,10 @@ footer {
 
 }
 
+.contact-info {
+  text-align: center;
+}
+
 .selected {
   background-color: #003399;
   color: white;
@@ -63,7 +95,7 @@ footer {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 h1, h2, h3, p {

@@ -26,6 +26,38 @@
   margin-bottom: 10px;
 }
 
+/*** NAV BAR ***/
+
+.header {
+  background-color: #3d3d3d;
+  width: 100%;
+  margin: 0;
+}
+
+.main-btn {
+  background-color: #3d3d3d;
+  height: 50px;
+  text-align: center;
+  color: #ffffff;
+  border: 0px solid #000000;
+}
+
+.main-btn:hover {
+  background-color: #3d3d3d;
+  color: #d1d1d1;
+  border-bottom: 2px #d1d1d1 solid;
+}
+
+.selected {
+  background-color: #3d3d3d;
+  color: #ffffff;
+  border: 0px;
+  border-bottom: 2px #fbff00 solid;
+  height: 50px;
+  vertical-align: center;
+}
+
+
 footer {
   /*position: fixed;*/
   bottom: 0;
@@ -71,10 +103,6 @@ footer {
   text-align: center;
 }
 
-.selected {
-  background-color: #003399;
-  color: white;
-}
 
 .nav-btn {
   min-width: 200px;
@@ -104,26 +132,15 @@ h1, h2, h3, p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-button {
+/*button {
   padding: 8px;
   font-size: 16px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 10px;
   background-color: #e6eeff;
-}
+}*/
 
-.main_btn {
-  border-radius: 10px;
-  background-color: #5cdb95; 
-  color: #05386b;
-  border: 1px solid #5cdb95;
-}
 
-.main_btn:hover {
-  background-color: #05386b;
-  border: 1px solid #05386b;
-  color: #8ee4af;
-}
 
 .sub_btn {
   border-radius: 10px;
@@ -183,6 +200,7 @@ img {
 
 body {
   background-color: #ccddff;
+  margin: 0;
 }
 
 .sub_th {

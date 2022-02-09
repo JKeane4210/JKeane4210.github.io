@@ -3,6 +3,7 @@
   --body-color: #051b54;
   --text-color: #dbdbdb;
   --accent-color: #ffffff;
+  --nav-bar-height: 75px;
 }
 
 .row {
@@ -14,8 +15,9 @@
 
 .logo {
   filter: brightness(0) invert(1);
-  width: 75px;
-  height: 75px;
+  width: var(--nav-bar-height);
+  height: var(--nav-bar-height);
+  margin-right: 50px;
 }
 
 .header {
@@ -26,11 +28,12 @@
 
 .main-btn {
   background-color: var(--nav-bar-color);
-  height: 75px;
+  height: var(--nav-bar-height);
   text-align: center;
   color: #ffffff;
   font-size: 24px;
   border: 0px solid #000000;
+  margin-right: 50px;
 }
 
 .main-btn:hover {
@@ -44,7 +47,7 @@
   color: var(--text-color);
   border: 0px;
   border-bottom: 2px #fbff00 solid;
-  height: 50px;
+  height: var(--nav-bar-height);
   vertical-align: center;
 }
 

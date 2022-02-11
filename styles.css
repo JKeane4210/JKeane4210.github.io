@@ -8,8 +8,50 @@
 
 .row {
   display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
+.proj-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+/*  padding-left: 50px;
+  padding-right: 50px;*/
+}
+
+.portion-30 {
+  width: 26%;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  /*padding: 100px;*/
+}
+
+.portion-50 {
+  width: 46%;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  /*padding: 100px;*/
+}
+
+.portion-70 {
+  width: 66%;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  /*padding: 100px;*/
+}
+
+.div-margin {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.float-row {
+  clear: both;
+}
 
 /*** NAV BAR ***/
 
@@ -46,9 +88,11 @@
   background-color: var(--nav-bar-color);
   color: var(--text-color);
   border: 0px;
-  border-bottom: 2px #fbff00 solid;
+  border-bottom: 4px #fbff00 solid;
+  font-size: 24px;
   height: var(--nav-bar-height);
   vertical-align: center;
+  margin-right: 50px;
 }
 
 /*** PROFILE ***/
@@ -58,8 +102,8 @@
   height: auto;
   border: 5px var(--accent-color) solid;
   border-radius: 50px;
-  margin: 30px;
-  margin-right: 300px;
+  /*margin: 30px;*/
+  /*margin-right: 300px;*/
 }
 
 .project-img {
@@ -78,17 +122,18 @@
   border-radius: 10px;
   padding: 20px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-
-
-
-footer {
+.footer {
   /*position: fixed;*/
-  bottom: 0;
+  /*bottom: 0;*/
+  float: left;
   width: 100%;
-  height: 30px;
+  margin-bottom: 10px;
+  /*padding: 50px;*/
 }
 
 /* Split the screen in half */
@@ -100,19 +145,7 @@ footer {
   /*overflow-x: hidden;*/
 }
 
-/* Control the left side */
-.left {
-  width: 10%;
-  left: 0;
-  /*background-color: #5cdb95;*/
-}
 
-/* Control the right side */
-.right {
-  width: 90%;
-  right: 0;
-  /*background-color: #05386b;*/
-}
 
 .spaced {
   padding-left:20px;
@@ -150,6 +183,18 @@ footer {
 
 h1 {
   font-size: 80px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 22px;
 }
 
 h1, h2, h3, p {
@@ -195,15 +240,16 @@ h1, h2, h3, p {
   color: #05386b;
 }
 
-img {
+/*img {
   float: left;
   padding: 10px;
-}
+}*/
 
 .icon {
   filter: brightness(0) invert(1);
   width: 35px;
   height: 35px;
+  margin-right: 20px;
   /*border-radius: 50%;*/
 }
 
@@ -213,11 +259,10 @@ img {
 }
 
 /*iframe {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 10%;
 }*/
 
 .resume {

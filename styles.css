@@ -81,7 +81,7 @@
 .main-btn:hover {
   background-color: var(--nav-bar-color);
   color: #d1d1d1;
-  border-bottom: 2px #d1d1d1 solid;
+  border-bottom: 4px #d1d1d1 solid;
 }
 
 .selected {

@@ -5,7 +5,7 @@
     <script type="text/javascript" src="main.js"></script>
     <title>Jonny Keane's Portfolio</title>
   </head>
-  <body onload="setCurrentImage()">
+  <body onload="setCurrentImage()" id="main">
   	<div class="header">
   		<div class="row">
 	  		<a href="./index.html">
@@ -40,13 +40,13 @@
   		<div class="slideshow">
   			<div class="img-container">
   				<img id="slideshow-img-left" class="slideshow-img">
-  				<img id="slideshow-img-center" class="slideshow-img">
+  				<img onclick="expandImage()" id="slideshow-img-center" class="slideshow-img">
   				<img id="slideshow-img-right" class="slideshow-img">
   			</div>
   			<button class="slideshow-btn" onclick="previousSlide()">&lt;</button>
   			<button class="slideshow-btn" onclick="nextSlide()">&gt;</button>
   		</div>
-<div class="footer">
+		<div class="footer">
 	  		<a href="./contactme.html">
 	  			<img class="icon" src="assets/email.png" style="margin-left: 20px">
 	  		</a>

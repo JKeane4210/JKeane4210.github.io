@@ -28,3 +28,20 @@ function previousSlide() {
 	currentSlideIndex = (currentSlideIndex + (PATHS.length - 1)) % PATHS.length;
 	setCurrentImage();
 }
+
+function expandImage() {
+	let currentImage = PATHS[currentSlideIndex];
+	var newImage = document.createElement('img');
+	newImage.setAttribute('src', currentImage);
+	newImage.setAttribute('id', 'expanded-img');
+	newImage.setAttribute('onclick', 'closeImage()');
+	newImage.setAttribute('style', 'position: fixed; width: 30%; left: 35%; top: 10%;');
+	var body = document.getElementById("main");
+	body.appendChild(newImage);
+}
+
+function closeImage() {
+	var body = document.getElementById("main");
+	var expandedImage = document.getElementById("expanded-img");
+	body.removeChild(expandedImage);
+}

@@ -177,7 +177,7 @@
 /*** PROFILE ***/
 
 .profile-img {
-  width: 300px;
+  width: 100%;
   height: auto;
   border: 5px var(--accent-color) solid;
   border-radius: 50px;
@@ -215,14 +215,6 @@
   padding-top:5px;
 }
 
-.contact-info {
-
-}
-
-.contact-info {
-  text-align: center;
-}
-
 
 .nav-btn {
   min-width: 200px;
@@ -254,11 +246,11 @@ h3 {
   font-size: 30px;
 }
 
-p {
+p, li {
   font-size: 22px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, li {
   color: var(--text-color);
   /*text-align: left;*/
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

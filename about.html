@@ -2,10 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
-    <!-- <script type="text/javascript" src="main.js"></script> -->
+    <script type="text/javascript" src="main.js"></script>
     <title>Jonny Keane's Portfolio</title>
   </head>
-  <body>
+  <body onload="setCurrentImage()">
   	<div class="header">
   		<div class="row">
 	  		<a href="./index.html">
@@ -30,12 +30,25 @@
 	</div>
   		<div class="welcome">
   			<!-- <h1>Welcome!</h1> -->
-	  		<h1>About</h1>
-	  		<p>Here is some really valuable information about myself. I am going to make this longer just so I can see what is happening with the CSS. I love coding :)</p>
+	  		<h1>About Site</h1>
+	  		<h2>Design Rationale</h2>
+	  		<p>DESC</p>
+	  		<h2>Reflection</h2>
+	  		<p>DESC</p>
+	  		<h2>Site Wireframes</h2>
+  		</div>
+  		<div class="slideshow">
+  			<div class="img-container">
+  				<img id="slideshow-img-left" class="slideshow-img">
+  				<img id="slideshow-img-center" class="slideshow-img">
+  				<img id="slideshow-img-right" class="slideshow-img">
+  			</div>
+  			<button class="slideshow-btn" onclick="previousSlide()">&lt;</button>
+  			<button class="slideshow-btn" onclick="nextSlide()">&gt;</button>
   		</div>
 <div class="footer">
 	  		<a href="./contactme.html">
-	  			<img class="icon"style="margin-left: 20px;" src="assets/email.png">
+	  			<img class="icon" src="assets/email.png" style="margin-left: 20px">
 	  		</a>
 			<a href="https://github.com/JKeane4210">
 					<img class="icon" src="assets/github.png">

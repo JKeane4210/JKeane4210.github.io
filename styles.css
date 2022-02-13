@@ -1,9 +1,45 @@
 :root {
   --nav-bar-color: #1f397a;
+  --subheader-color: #101c3d;
   --body-color: #051b54;
   --text-color: #dbdbdb;
   --accent-color: #ffffff;
   --nav-bar-height: 75px;
+}
+
+.slideshow {
+  text-align: center;
+  clear: both;
+}
+
+.img-container {
+  clear: both;
+}
+
+.slideshow-img {
+  max-height: 500px;
+  height: 500px;
+}
+
+#slideshow-img-left, #slideshow-img-right {
+  filter: brightness(50%);
+}
+
+.slideshow-btn {
+  max-height: 50px;
+  height: 50px;
+  max-width: 50px;
+  width: 50px;
+  background-color: #585858;
+  color: #ffffff;
+  font-size: 25px;
+  border-radius: 10px;
+  font-weight: bolder;
+  border: none;
+}
+
+.slideshow-btn:hover {
+  background-color: #A0A0A0;
 }
 
 .row {
@@ -15,7 +51,6 @@
 .proj-img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
 /*  padding-left: 50px;
   padding-right: 50px;*/
 }
@@ -68,8 +103,15 @@
   margin: 0;
 }
 
+.subheader {
+  background-color: var(--subheader-color);
+  padding-left: 125px;
+  width: 100%;
+  margin: 0;
+}
+
 .main-btn {
-  background-color: var(--nav-bar-color);
+  background-color: inherit;
   height: var(--nav-bar-height);
   text-align: center;
   color: #ffffff;
@@ -79,13 +121,13 @@
 }
 
 .main-btn:hover {
-  background-color: var(--nav-bar-color);
+  background-color: inherit;
   color: #d1d1d1;
   border-bottom: 4px #d1d1d1 solid;
 }
 
 .selected {
-  background-color: var(--nav-bar-color);
+  background-color: inherit;
   color: var(--text-color);
   border: 0px;
   border-bottom: 4px #fbff00 solid;
@@ -133,6 +175,7 @@
   float: left;
   width: 100%;
   margin-bottom: 10px;
+  /*padding-left: 20px;*/
   /*padding: 50px;*/
 }
 
@@ -203,6 +246,25 @@ h1, h2, h3, p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+.icon {
+  filter: brightness(0) invert(1);
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+  /*border-radius: 50%;*/
+}
+
+.resume {
+  width: 60%;
+  height: 1000px;
+}
+
+body {
+  background-color: var(--body-color);
+  margin: 0;
+}
+
 /*button {
   padding: 8px;
   font-size: 16px;
@@ -245,13 +307,7 @@ h1, h2, h3, p {
   padding: 10px;
 }*/
 
-.icon {
-  filter: brightness(0) invert(1);
-  width: 35px;
-  height: 35px;
-  margin-right: 20px;
-  /*border-radius: 50%;*/
-}
+
 
 .video_wrapper {
   position: relative;
@@ -265,15 +321,7 @@ h1, h2, h3, p {
   height: 10%;
 }*/
 
-.resume {
-  width: 60%;
-  height: 1000px;
-}
 
-body {
-  background-color: var(--body-color);
-  margin: 0;
-}
 
 .sub_th {
   width: 33%;

@@ -6,8 +6,6 @@ const PATHS = [
 	"./assets/figma_wireframes3.jpg",
 	"./assets/figma_wireframes4.jpg"];
 
-
-
 var currentSlideIndex = 0;
 
 function setCurrentImage() {

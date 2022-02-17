@@ -2,10 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
-    <!-- <script type="text/javascript" src="main.js"></script> -->
+    <script type="text/javascript" src="tools.js"></script>
     <title>Jonny Keane's Portfolio</title>
   </head>
-  <body>
+  <body onload="setCards()">
   	<div class="header">
   		<div class="row">
 	  		<a href="./index.html">
@@ -39,15 +39,44 @@
 	  		<div class="float-row">
 	  		<div style="float: left; margin-left: 2%; margin-right: 2%; width: 40%; padding: 20px">
 	  			<h2>Programming Languages</h2>
-	  			<ul>
-	  				<li>Java</li>
-	  				<li>Python</li>
-	  				<li>Node JS</li>
-	  				<li>C++</li>
-	  				<li>C#</li>
-	  				<li>HTML/CSS</li>
-	  				<li>SQL</li>
-	  			</ul>
+	  			<div class="container">
+		  			<div class="skill box" onclick="nextCard()">
+			  			<img id="top-card">
+			  			<p id="top-card-text"></p>
+			  		</div>
+			  		<div class="skill box stack-bottom">
+			  			<img id="bottom-card">
+			  			<p id="bottom-card-text"></p>
+			  		</div>
+			  	</div>
+	  			<!-- <div class="skill">
+	  				<img src="./assets/java.png">
+	  				<p>Java</p>
+	  			</div>
+	  			<div class="skill">
+	  				<img src="./assets/python.png">
+	  				<p>Python</p>
+	  			</div>
+	  			<div class="skill">
+	  				<img src="./assets/node.png">
+	  				<p>NodeJS</p>
+	  			</div>
+	  			<div class="skill">
+	  				<img src="./assets/cpp.png">
+	  				<p>C++</p>
+	  			</div>
+	  			<div class="skill">
+	  				<img src="./assets/cs.jpg">
+	  				<p>C#</p>
+	  			</div>
+	  			<div class="skill">
+	  				<img src="./assets/web.png">
+	  				<p>HTML/CSS</p>
+	  			</div>
+	  			<div class="skill">
+	  				<img src="./assets/sql.jpg">
+	  				<p>SQL</p>
+	  			</div> -->
 	  		</div>
 	  		<div style="float: left; margin-left: 2%; margin-right: 2%; width: 40%; padding: 20px">
 	  			<h2>Tools</h2>

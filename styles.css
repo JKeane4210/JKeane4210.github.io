@@ -29,12 +29,13 @@
 }
 
 .skill {
-  width: 200px;
+  min-width: 200px;
   text-align: center;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 8px;
   padding: 5px;
   margin-bottom: 10px;
+  margin-right: 10px;
   border-bottom: 2px solid black;
   border-right: 2px solid black;
 }
@@ -89,6 +90,10 @@
   display: flex;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.plain-row {
+  display: flex;
 }
 
 /*** PROJECTS ***/
@@ -156,8 +161,23 @@
   /*padding: 100px;*/
 }
 
+.portion-40 {
+  width: 36%;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 .portion-50 {
   width: 46%;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  /*padding: 100px;*/
+}
+
+.portion-60 {
+  width: 56%;
   float: left;
   padding-left: 2%;
   padding-right: 2%;
@@ -236,6 +256,7 @@
   height: auto;
   border: 5px var(--accent-color) solid;
   border-radius: 50px;
+  margin-top: 50px;
   /*margin: 30px;*/
   /*margin-right: 300px;*/
 }
@@ -291,10 +312,13 @@
 
 h1 {
   font-size: 80px;
+  margin-bottom: 0px;
 }
 
 h2 {
   font-size: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 h3 {

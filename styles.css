@@ -7,6 +7,66 @@
   --nav-bar-height: 75px;
 }
 
+@media screen and (max-width: 1500px) {
+/*  div {
+    display: block;
+    background-color: white;
+  }*/
+
+  div.float-row {
+    display: block;
+  }
+
+  div.portion-30 {
+    display: block;
+  }
+
+  div.portion-50 {
+    display: block;
+  }
+
+  div.portion-70 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  div.portion-30 {
+    width: 26%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  div.portion-40 {
+    width: 36%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  div.portion-50 {
+    width: 46%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  div.portion-60 {
+    width: 56%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  div.portion-70 {
+    width: 66%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
 .container {
   width: 200px;
   height: 200px;
@@ -152,45 +212,6 @@
 }
 
 /*** SPACING/SCREEN PORTIONS ***/
-
-.portion-30 {
-  width: 26%;
-  float: left;
-  padding-left: 2%;
-  padding-right: 2%;
-  /*padding: 100px;*/
-}
-
-.portion-40 {
-  width: 36%;
-  float: left;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
-.portion-50 {
-  width: 46%;
-  float: left;
-  padding-left: 2%;
-  padding-right: 2%;
-  /*padding: 100px;*/
-}
-
-.portion-60 {
-  width: 56%;
-  float: left;
-  padding-left: 2%;
-  padding-right: 2%;
-  /*padding: 100px;*/
-}
-
-.portion-70 {
-  width: 66%;
-  float: left;
-  padding-left: 2%;
-  padding-right: 2%;
-  /*padding: 100px;*/
-}
 
 .div-margin {
   margin-left: 100px;

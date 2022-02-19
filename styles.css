@@ -7,7 +7,9 @@
   --nav-bar-height: 75px;
 }
 
+/*For larger screen resizes*/
 @media screen and (max-width: 1500px) {
+
 /*  div {
     display: block;
     background-color: white;
@@ -18,18 +20,49 @@
   }
 
   div.portion-30 {
-    display: block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   div.portion-50 {
-    display: block;
+    width: 80%;
   }
 
   div.portion-70 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  div.plain-row {
     display: block;
+  }
+
+
+  .header {
+    display: block;
+    margin-left: 10%; 
+    margin-right: 10%;
+  }
+
+  .skill {
+    max-width: 40%;
+    width: 40%;
+    vertical-align: center;
+  }
+
+  .skill img {
+    width: auto;
+    max-height: 60px;
+  }
+
+  .skill p {
+    height: 20%;
   }
 }
 
+/*For smaller screens*/
 @media screen and (min-width: 1500px) {
   div.portion-30 {
     width: 26%;
@@ -65,6 +98,28 @@
     padding-left: 2%;
     padding-right: 2%;
   }
+
+  div.plain-row {
+    display: flex;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .skill {
+    max-width: 200px;
+    width: 200px;
+  }
+
+  .skill img {
+    width: auto;
+    max-height: 100px;
+  }
+
+  .skill p {
+    height: 20%;
+  }
 }
 
 .container {
@@ -89,7 +144,6 @@
 }
 
 .skill {
-  min-width: 200px;
   text-align: center;
   background-color: white;
   border-radius: 8px;
@@ -98,11 +152,6 @@
   margin-right: 10px;
   border-bottom: 2px solid black;
   border-right: 2px solid black;
-}
-
-.skill img {
-  max-height: 100px;
-  width: auto;
 }
 
 .skill p {
@@ -152,9 +201,6 @@
   margin-right: 100px;
 }
 
-.plain-row {
-  display: flex;
-}
 
 /*** PROJECTS ***/
 
@@ -233,7 +279,7 @@
 
 .header {
   background-color: var(--nav-bar-color);
-  width: 100%;
+  max-width: 100%;
   margin: 0;
 }
 

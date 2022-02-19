@@ -159,6 +159,14 @@
   .first-btn {
     margin-left: 175px;
   }
+
+  .project {
+    display: flex;
+  }
+
+  .project img {
+    margin-left: 70px;
+  }
 }
 
 .container {

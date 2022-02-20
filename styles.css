@@ -195,6 +195,10 @@
   .w-y-offset {
     margin-top: 100px;
   }
+
+  .main-btn {
+    margin-right: 50px;
+  }
 }
 
 .float-row-no-block {
@@ -388,7 +392,6 @@
   color: #ffffff;
   font-size: 24px;
   border: 0px solid #000000;
-  margin-right: 50px;
 }
 
 .main-btn:hover {
@@ -493,6 +496,10 @@ h1, h2, h3, p, li {
   color: var(--text-color);
   /*text-align: left;*/
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a { 
+  text-decoration: none;
 }
 
 

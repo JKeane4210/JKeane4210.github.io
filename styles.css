@@ -10,7 +10,7 @@
 /*For smaller screen resizes*/
 @media screen and (max-width: 1250px) {
 
-/*  div {
+  /*  div {
     display: block;
     background-color: white;
   }*/
@@ -25,8 +25,22 @@
     margin-right: 10%;
   }
 
+  div.portion-40 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
   div.portion-50 {
     width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  div.portion-60 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   div.portion-70 {
@@ -82,10 +96,20 @@
   .subheader button {
     min-width: 100%;
   }
+
+  img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .first {
+    margin-left: 80px;
+  }
 }
 
 /*For larger screens*/
 @media screen and (min-width: 1250px) {
+
   div.portion-30 {
     width: 26%;
     float: left;
@@ -167,6 +191,27 @@
   .project img {
     margin-left: 70px;
   }
+
+  .w-y-offset {
+    margin-top: 100px;
+  }
+}
+
+.float-row-no-block {
+  clear: both;
+}
+
+.portion-50-no-block {
+  width: 46%;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 0px;
 }
 
 .container {
@@ -196,17 +241,14 @@
   border-radius: 8px;
   padding: 5px;
   margin-bottom: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   border-bottom: 2px solid black;
   border-right: 2px solid black;
 }
 
 .skill p {
   color: black;
-}
-
-.first {
-  margin-left: 10px;
 }
 
 /*** SLIDESHOW ***/
@@ -370,6 +412,7 @@
 
 .profile-img {
   width: 100%;
+  max-width: 600px;
   height: auto;
   border: 5px var(--accent-color) solid;
   border-radius: 50px;

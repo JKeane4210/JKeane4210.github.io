@@ -1,0 +1,135 @@
+body {
+	height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+}
+
+h1, p {
+    font-family: Snell Roundhand, cursive;
+    width: 100%;
+    color: white;
+    stroke: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vh;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 2.5vh;
+}
+
+#msg {
+    position: absolute;
+    margin-top: 40vh;
+    margin-bottom: 10vh;
+    width: 80vw;
+    height: 50vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 0;
+    display: none;
+    overflow: hidden;
+}
+
+button {
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: #fff0;
+    color: #fff;
+    position: absolute;
+    top: 4%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: fadeOut 1.5s;
+    mix-blend-mode: screen;
+    text-align: right;
+    padding: 5px 20px 5px 20px;
+    opacity: 1;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+button:hover {
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+    animation: fadeIn 1.5s;
+    mix-blend-mode: lighten;
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% { background-color: #fff0; color: white; mix-blend-mode: screen; }
+  100% { background-color: #fff; color: black; mix-blend-mode: lighten; }
+}
+
+@keyframes fadeOut {
+  0% { background-color: #fff; color: black; mix-blend-mode: lighten; }
+  100% { background-color: #fff0; color: white; mix-blend-mode: screen; }
+}
+
+#next {
+    right: 150px;
+}
+
+#end {
+    right: 10px;
+}
+
+canvas {
+	height: 100vh;
+	width: 100vw;
+    padding: 0;
+}
+
+#canvas {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+	display: none;
+	bottom: 0;
+    left: 0;
+    margin: auto;
+    max-height: 70%;
+    max-width: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+	background-color: #fff;
+    padding: 15px 15px 45px 15px;
+}
+
+.square img {
+	display: none;
+	bottom: 0;
+    left: 0;
+    margin: auto;
+    max-height: 80%;
+    max-width: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+	background-color: #fff;
+    padding: 5px 5px 15px 5px;
+}
+
+/*For final image screen*/
+.square {
+	display: block;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+}
+

@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - JKeane4210
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - JKeane4210/slime-mold-simulation-gpu-programming
+  

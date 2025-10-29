@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Soccer Computer Vision
+description: Mentored a group of undergraduate soccer players in creating a soccer computer vision system for MSOE.
+img: assets/img/yolo_soccer.jpg
+importance: 2
+related_publications: true
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

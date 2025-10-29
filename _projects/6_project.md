@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
+title: Raider Stats
+description: Deployed a website for tracking soccer practice statistics using AWS services, later mentoring undergraduate students to continue development on this.
+img: assets/img/raider_stats.png
+redirect: https://raider-stats.com/
+importance: 1
 category: fun
 ---
 

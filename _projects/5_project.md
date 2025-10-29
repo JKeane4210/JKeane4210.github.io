@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Music Transformers (UR)
+description: Undergraduate research project for doing MIDI music generation and error correction.
+img: assets/img/music_transformer.png
+importance: 1
+related_publications: true
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

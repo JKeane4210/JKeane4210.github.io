@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
+title: Strategy Masking
+description: Controlling lying behavior with a novel technique based on reward decomposition.
+img: assets/img/rew-sub-sankey.png
+importance: 1
 category: work
-giscus_comments: true
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.

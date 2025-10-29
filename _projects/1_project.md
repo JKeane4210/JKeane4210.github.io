@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
-importance: 1
+title: Slime Particle Simulation
+description: Created a GPU-parallelized slime simulation in CUDA.
+img: assets/img/MSOE_Slime.jpg
+importance: 2
 category: work
-related_publications: true
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.

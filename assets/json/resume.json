@@ -1,200 +1,191 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "name": "Jonathan Keane",
+    "label": "Aspiring ML Researcher",
+    "email": "jtkeane8@gmail.com",
+    "phone": "(847) 323-2297",
+    "url": "https://JKeane4210.github.io",
+    "summary": "Aspiring researcher with M.S. in Machine Learning and B.S in Computer Science. Interested in explainable and interpretable AI systems to promote ethical use of advanced technologies. Seeking research opportunities to further develop expertise in the fast-evolving AI field.",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "url": "https://linkedin.com/in/jonathan--keane/"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/JKeane4210"
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Milwaukee School of Engineering",
+      "area": "Machine Learning",
+      "studyType": "M.S.",
+      "startDate": "2023-06",
+      "endDate": "2024-12",
+      "score": "4.00"
+    },
+    {
+      "institution": "Milwaukee School of Engineering",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2020-08",
+      "endDate": "2023-12",
+      "score": "4.00"
     }
   ],
-  "awards": [
+  "work": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "name": "Direct Supply",
+      "position": "Data Scientist",
+      "startDate": "2023-03",
+      "endDate": "",
+      "summary": "Worked on multiple data science and ML systems for senior living solutions. Led and collaborated on projects involving embeddings, LLM evaluations, and AI-based search.",
+      "highlights": [
+        "Built menu planning tool with AI-based recommendations",
+        "Led RAG-based product type suggestion system using Databricks, Postgres (pgvector), and AWS",
+        "Developed AI-powered product search system; became company trade secret"
+      ]
+    },
+    {
+      "name": "CPA Leadership Institute",
+      "position": "Freelance Software Developer",
+      "summary": "Created a software tool to automate sending personalized LinkedIn messages using Python, Java, Selenium, and MySQL. Saved hundreds of hours in manual marketing.",
+      "highlights": [
+        "Designed GUI for managing and sending LinkedIn messages",
+        "Implemented autocomplete contact search feature",
+        "Delivered SaaS solution sending over 5,000 automated messages"
+      ]
     }
   ],
-  "certificates": [
+  "projects": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Mentor \u2013 Computer Vision Soccer Analysis",
+      "organization": "MSOE AI Club",
+      "startDate": "2024-08",
+      "summary": "Mentored undergraduates building a computer vision system for player stats extraction. Helped develop CNN and segmentation framework; project won 3rd prize in innovation challenge.",
+      "highlights": [
+        "Guided YOLO and SAM 2 integration for player tracking",
+        "Built CNN-based field keypoint detection model",
+        "Helped team present and compete successfully"
+      ]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Limiting Lying for RL Agents in a Social Deduction Game",
+      "organization": "MSOE",
+      "startDate": "2024-01",
+      "endDate": "2024-08",
+      "url": "https://arxiv.org/abs/2501.05501",
+      "summary": "Trained reinforcement learning agents with reward decomposition for the social deduction game Coup to identify and eliminate deceptive behavior. Implemented the environment and league-based training in Python with PyTorch LSTMs.",
+      "highlights": [
+        "Literature review on interpretability in RL",
+        "Implemented Coup environment and LSTM agents",
+        "Developed strategy masking technique for honesty in agents"
+      ]
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Deep Learning Music Transformer Undergraduate Research",
+      "organization": "MSOE",
+      "startDate": "2022-09",
+      "endDate": "2023-05",
+      "summary": "Explored Transformer architectures for music generation using the ROSIE supercomputer. Presented findings in a regional conference and won 1st place in innovation challenge.",
+      "highlights": [
+        "Performed literature review on Transformer mechanisms",
+        "Developed training automation using Slurm on ROSIE supercomputer",
+        "Presented and published research results"
+      ]
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "Slime Particle Simulation",
+      "organization": "MSOE Machine Learning Program",
+      "summary": "Created a GPU-parallelized simulation of slime mold particle dynamics using CUDA C. Used real-time visualization via CUDA GL and explored food-type differentiation.",
+      "highlights": [
+        "Implemented physarum polycephalum particle simulation",
+        "Optimized GPU performance with CUDA parallelism",
+        "Produced visual real-time simulation output"
+      ]
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "name": "MSOE NCAA Men\u2019s Soccer Team",
+      "organization": "MSOE Athletics",
+      "startDate": "2020-08",
+      "summary": "Captain and lead tutor balancing athletics and academics. Led training, organized tutoring, and built leadership and communication skills through competition and mentorship.",
+      "highlights": [
+        "Captain and study tables lead tutor",
+        "Organized team practices and tutoring sessions",
+        "Developed teamwork and leadership under pressure"
+      ]
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "MSOE Competitive Programming Team & Leadership Roles",
+      "organization": "MSOE",
+      "startDate": "2020-09",
+      "endDate": "2024-03",
+      "summary": "Active involvement in programming competitions and community service initiatives.",
+      "highlights": [
+        "ICPC National Competition 2022 & 2023 participant",
+        "FIRST FTC Robotics Mentor (2023\u20132024)",
+        "Google Developer Student Club Co-Lead (2021\u20132022)",
+        "Walnut Way Servant Leadership Project participant (2020\u20132021)"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "SQL (Postgres/MySQL)",
+        "React",
+        "CUDA C/C++",
+        "JavaScript",
+        "Java"  
+      ]
+    },
+    {
+      "name": "AI Models",
+      "keywords": [
+        "LLMs",
+        "Embedding Models",
+        "YOLO",
+        "SAM 2",
+        "PyTorch",
+        "Transformers"
+      ]
+    },
+    {
+      "name": "Software Tools",
+      "keywords": [
+        "AWS",
+        "Databricks",
+        "Docker",
+        "Git",
+        "Jupyter Notebook",
+        "Pandas",
+        "NumPy",
+        "Scrum",
+        "Selenium",
+        "Slurm",
+        "pgvector",
+        "Unity"
+      ]
+    },
+    {
+      "name": "Other",
+      "keywords": [
+
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "fluency": "Native Speaker"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "language": "Spanish",
+      "fluency": "Intermediate"
     }
   ]
 }

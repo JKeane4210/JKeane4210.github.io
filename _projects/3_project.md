@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Deer Dash
+description: Created a 3D video game using Unity during COVID.
+img: assets/img/deerDash.png
+# redirect: https://unsplash.com
 importance: 3
-category: work
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

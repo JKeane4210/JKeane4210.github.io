@@ -27,7 +27,7 @@ latest_posts:
 
 Hello. I am Jonathan Keane, but everyone calls me Jonny.
 
-For a while now, I have been interested in understanding how AI models learn to solve problems. While I think there is a lot that can be learned by just looking at the math of these models, but where this math leads us can have an extra story to tell us when it comes to how models think about things. Because of this curiosity, I have been very interested in AI interpretability, as well as NLP regarding language understanding and reinforcement learning geared towards reasoning capabilities.
+For a while now, I have been interested in understanding how AI models learn to solve problems. While I think there is a lot that can be learned by just looking at the math of these models, I feel that where this math leads/what a model converges to can have an extra story regarding how models think about things. Because of this curiosity, I have been very interested in AI interpretability, as well as NLP regarding language understanding and reinforcement learning geared towards reasoning capabilities.
 
 When I am not working on something related to AI, I like to live a pretty active life. I play soccer, run, rock climb, and play volleyball. I also am a big reader *(if I can find the time to fit it in)*. A mix of some sci-fi, novels, and philosophy usually, but I am pretty open to suggestions.
 

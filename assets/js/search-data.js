@@ -414,8 +414,8 @@ ninja.data = [{
           description: "Created a GPU-parallelized slime simulation in CUDA.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-strategy-masking",
-          title: 'Strategy Masking',
+            },},{id: "projects-strategy-masking-in-coup",
+          title: 'Strategy Masking in Coup',
           description: "Controlling lying behavior with a novel technique based on reward decomposition.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
@@ -429,8 +429,8 @@ ninja.data = [{
           description: "Mentored a group of undergraduate soccer players in creating a soccer computer vision system for MSOE.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-music-transformers-ur",
-          title: 'Music Transformers (UR)',
+            },},{id: "projects-error-correcting-music-transformers-ur",
+          title: 'Error-Correcting Music Transformers (UR)',
           description: "Undergraduate research project for doing MIDI music generation and error correction.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";

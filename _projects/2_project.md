@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Strategy Masking
+title: Strategy Masking in Coup
 description: Controlling lying behavior with a novel technique based on reward decomposition.
 img: assets/img/rew-sub-sankey.png
 importance: 1
 category: work
 related_publications: false
+redirect: https://arxiv.org/abs/2501.05501
 ---
 
 Every project has a beautiful feature showcase page.

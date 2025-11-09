@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Music Transformers (UR)
+title: Error-Correcting Music Transformers (UR)
 description: Undergraduate research project for doing MIDI music generation and error correction.
 img: assets/img/music_transformer.png
 importance: 1
@@ -8,74 +8,18 @@ related_publications: true
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+As my first research experience, I worked in MSOE's undegraduate research program under advisor Dr. Josiah Yoder to produce my research project *Error-Correcting Music Transformers*. Going into this project, I had very little knowledge of what a transformer is and why it was needed for music generation, so the first part of this curriculum involved literature view to understand the domain that I was working in. After doing this review, I proposed the potential research project of being able to create an encoder-decoder transformer architecture that would work like a composer "iterating" on a piece of music by taking in a piece of music through the encoder and correcting errors/anomalies in the given piece.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+With this project, I produced a research paper and presented this research at the 2023 Midwest Instruction and Computing Symposium (MICS) at the University of Northern Iowa in Cedar Falls, Iowa.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Combined Music Transformers Work
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+While working on my undegraduate research project, Michael Conner, another MSOE undergraduate was working a second independent music transformer project that aimed to improve a decoder-only music generation transformer by decomposing a relative self-attention block into a semantic and temporal component, making the use of relative positional information clear to the transformer. through the course of the year, Dr. Yoder had us collaborate in our weekly meetings in discussing ideas, leading to us listing each other as authors on our papers submitted to MICS.
+
+Additionally, we decided to create a joint submission to MSOE's ROSIE competition, an annual competition where students are tasked to solve a problem using MSOE's ROSIE supercomputer. We were selected as finalists for presenting our work. During presentations, we were judged by Derek Riley, Program Director of the Computer Science Department; Nick Haeml, the VP of Healthcare Computer Vision and Graphics Software at NVIDIA; and Dwight Diercks, the VP of Engineering at NVIDIA, where we won first prize including $5000 and NVIDIA RTX 4090 GPUs ([Article: Music to their ears: Students win Rosie Supercomputer Super Challenge for Music Transformers project](https://www.msoe.edu/about-msoe/news/details/music-to-their-ears-students-win-rosie-supercomputer-super-challenge-for-music-transformers-project/)).
+
+If you want to listen to our presentation, check it out here!
+
+<div class="portion-50 w-y-offset">
+    <iframe width="100%" height="500px" src="https://www.youtube.com/embed/lKCTHH88JCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

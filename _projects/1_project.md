@@ -6,6 +6,7 @@ img: assets/img/MSOE_Slime.jpg
 importance: 2
 category: work
 related_publications: false
+redirect: https://github.com/JKeane4210/slime-mold-simulation-gpu-programming
 ---
 
 Every project has a beautiful feature showcase page.

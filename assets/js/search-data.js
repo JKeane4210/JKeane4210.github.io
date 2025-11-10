@@ -57,7 +57,7 @@ ninja.data = [{
               window.location.href = "/projects/soccer-vision.html";
             },},{id: "projects-strategy-masking-in-coup",
           title: 'Strategy Masking in Coup',
-          description: "For my master&#39;s capstone, I worked to explain and subsequently control lying behavior with a novel technique based on reward decomposition in the social deduction game *Coup*.",
+          description: "For my master&#39;s capstone, I worked to explain and subsequently control lying behavior with a novel technique based on reward decomposition in the social deduction game Coup.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/strategy-masking.html";
             },},{

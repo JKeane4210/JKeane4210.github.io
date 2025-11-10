@@ -8,74 +8,29 @@ related_publications: true
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+MSOE's AI club pushes for upperclassmen/graduate students to mentor research groups of undergraduates. Being an alumni of MSOE's men's soccer team, I offered to create a research group that would mentor current players on the team in Software Engineering and Computer Science majors in developing a computer vision system for analyzing men's soccer games with the camera that we have mounted at Viets Field. Through this project, I mentored Adrian Manchado, Tanner Cellio, Nico Picha, Joey Loduca, and Asher Harris, teaching them about about CNNs, YOLO image classification models, and the SAM2 image segmentation model.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Two of the student I mentored, Adrian Manchado and Tanner Cellio, wanted to push this project further. Partnering with Dr. Ian Wang from MSOE, we defined two independent studies for the second semester of this project. Tanner would work on player classification and stitching across video frames, while Adrian would work on coordinate prediction and applying homography to points on the field to allow for mapping player movements to actual distances traveled on the field. As a result of this work, we developed a combined research paper describing our system and published our paper *AI Driven Soccer Analysis Using Computer Vision* in the 2025 *Midwest Instruction and Computing Symposium (MICS)* where Adrian and Tanner presented our work in Minneapolis, Minnesota at Augsburg University. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+To conclude the school year, I also worked with Adrian and Tanner to submit this work to MSOE's ROSIE Supercomputer Competition sponsored by NVIDIA. They were selected as finalists so we prepared for them to present to the judges:
+
+* Dr. Jeremy Kedziora, MSOE Associate Professor and Pieper Power Endowed Chair AI
+
+* Nick Haeml, the VP of Healthcare Computer Vision and Graphics Software at NVIDIA
+
+* Dwight Diercks, the VP of Engineering at NVIDIA
+
+Of these finalists, our group won third prize including $3000 and 2 NVIDIA GPUs and a NVIDIA Jetson Nano. After completing this project, they also received the opportunity to continue development on this project as a paid REU program through MSOE. All in all, it was amazing to watch my teammates learn over the course of the year and I am incredibly proud to have gotten to be a small part of their journey.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mics_submitted.jpg" title="Adrian, Tanner, and I celebrating after submitting our paper to MICS 2025" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/rosie_soccer.jpg" title="ROSIE Competition 2023" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    On the left, Adrian, Tanner, and I celebrating after getting our paper submitted to MICS 2025. On the right, a picture of the MSOE men's soccer team celebrating with our group for having won 3rd prize in MSOE's ROSIE Supercomputer Competition.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

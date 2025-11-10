@@ -16,10 +16,11 @@ With this project, I produced a research paper and presented this research at th
 
 While working on my undegraduate research project, Michael Conner, another MSOE undergraduate was working a second independent music transformer project that aimed to improve a decoder-only music generation transformer by decomposing a relative self-attention block into a semantic and temporal component, making the use of relative positional information clear to the transformer. Through the course of the year, Dr. Yoder had us collaborate in our weekly meetings in discussing ideas, leading to us listing each other as authors on our papers submitted to MICS {% cite keane2023errorcorrectingmusictransformers conner2023semanticpositionalencodingmusictransformers %}.
 
-Additionally, we decided to create a joint submission to MSOE's ROSIE competition, an annual competition where students are tasked to solve a problem using MSOE's ROSIE supercomputer. We were selected as finalists for presenting our work. During presentations, we were judged by Derek Riley, Program Director of the Computer Science Department; Nick Haeml, the VP of Healthcare Computer Vision and Graphics Software at NVIDIA; and Dwight Diercks, the VP of Engineering at NVIDIA, where we won first prize including $5000 and NVIDIA RTX 4090 GPUs ([Article: Music to their ears: Students win Rosie Supercomputer Super Challenge for Music Transformers project](https://www.msoe.edu/about-msoe/news/details/music-to-their-ears-students-win-rosie-supercomputer-super-challenge-for-music-transformers-project/)).
-
-If you want to listen to our presentation, check it out here!
+Additionally, we decided to create a joint submission to MSOE's ROSIE competition, an annual competition where students are tasked to solve a problem using MSOE's ROSIE supercomputer. We were selected as finalists for presenting our work. During presentations, we were judged by Derek Riley, Program Director of the Computer Science Department; Nick Haeml, the VP of Healthcare Computer Vision and Graphics Software at NVIDIA; and Dwight Diercks, the VP of Engineering at NVIDIA, where we won first prize including $5000 and 2 NVIDIA RTX 4090 GPUs ([Article: Music to their ears: Students win Rosie Supercomputer Super Challenge for Music Transformers project](https://www.msoe.edu/about-msoe/news/details/music-to-their-ears-students-win-rosie-supercomputer-super-challenge-for-music-transformers-project/)).
 
 <div class="portion-50 w-y-offset">
     <iframe width="100%" height="500px" src="https://www.youtube.com/embed/lKCTHH88JCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="caption">
+    Our 1st prize winning ROSIE Supercomputer Competition presentation.
 </div>

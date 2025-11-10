@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Slime Particle Simulation
-description: Created a GPU-parallelized slime simulation in CUDA.
+description: Created a GPU-parallelized slime simulation in CUDA. This project was a final project culminating from a independent study studying GPU programming.
 img: assets/img/MSOE_Slime.jpg
 importance: 3
 category: work

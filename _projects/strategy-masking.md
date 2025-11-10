@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Strategy Masking in Coup
-description: For my master's capstone, I worked to explain and subsequently control lying behavior with a novel technique based on reward decomposition in the social deduction game *Coup*.
+description: For my master's capstone, I worked to explain and subsequently control lying behavior with a novel technique based on reward decomposition in the social deduction game Coup.
 img: assets/img/rew-sub-sankey.png
 importance: 1
 category: work

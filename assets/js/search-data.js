@@ -30,74 +30,36 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-deer-dash",
+        },{id: "projects-deer-dash",
           title: 'Deer Dash',
           description: "Created a 3D video game using Unity during COVID.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/deer-dash/";
+              window.location.href = "/projects/deer-dash.html";
             },},{id: "projects-slime-particle-simulation",
           title: 'Slime Particle Simulation',
           description: "Created a GPU-parallelized slime simulation in CUDA. This project was a final project culminating from a independent study studying GPU programming.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/gpu-slime-cuda/";
+              window.location.href = "/projects/gpu-slime-cuda.html";
             },},{id: "projects-error-correcting-music-transformers-ur",
           title: 'Error-Correcting Music Transformers (UR)',
           description: "Undergraduate research project for doing MIDI music generation and error correction.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/music-transfomers/";
+              window.location.href = "/projects/music-transfomers.html";
             },},{id: "projects-raider-stats",
           title: 'Raider Stats',
           description: "Deployed a website for tracking soccer practice statistics using AWS services, later mentoring undergraduate students to continue development on this.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/raider-stats/";
+              window.location.href = "/projects/raider-stats.html";
             },},{id: "projects-soccer-computer-vision",
           title: 'Soccer Computer Vision',
           description: "Mentored a group of undergraduate soccer players in creating a soccer computer vision system for MSOE.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/soccer-vision/";
+              window.location.href = "/projects/soccer-vision.html";
             },},{id: "projects-strategy-masking-in-coup",
           title: 'Strategy Masking in Coup',
           description: "For my master&#39;s capstone, I worked to explain and subsequently control lying behavior with a novel technique based on reward decomposition in the social deduction game *Coup*.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/strategy-masking/";
+              window.location.href = "/projects/strategy-masking.html";
             },},{
         id: 'social-email',
         title: 'email',

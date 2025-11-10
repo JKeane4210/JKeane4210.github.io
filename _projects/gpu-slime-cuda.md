@@ -3,7 +3,7 @@ layout: page
 title: Slime Particle Simulation
 description: Created a GPU-parallelized slime simulation in CUDA.
 img: assets/img/MSOE_Slime.jpg
-importance: 2
+importance: 3
 category: work
 related_publications: false
 redirect: https://github.com/JKeane4210/slime-mold-simulation-gpu-programming

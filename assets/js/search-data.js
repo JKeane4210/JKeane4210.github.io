@@ -409,36 +409,36 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-slime-particle-simulation",
-          title: 'Slime Particle Simulation',
-          description: "Created a GPU-parallelized slime simulation in CUDA.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-strategy-masking-in-coup",
-          title: 'Strategy Masking in Coup',
-          description: "Controlling lying behavior with a novel technique based on reward decomposition.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-deer-dash",
+          section: "News",},{id: "projects-deer-dash",
           title: 'Deer Dash',
           description: "Created a 3D video game using Unity during COVID.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-soccer-computer-vision",
-          title: 'Soccer Computer Vision',
-          description: "Mentored a group of undergraduate soccer players in creating a soccer computer vision system for MSOE.",
+              window.location.href = "/projects/deer-dash/";
+            },},{id: "projects-slime-particle-simulation",
+          title: 'Slime Particle Simulation',
+          description: "Created a GPU-parallelized slime simulation in CUDA.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/projects/gpu-slime-cuda/";
             },},{id: "projects-error-correcting-music-transformers-ur",
           title: 'Error-Correcting Music Transformers (UR)',
           description: "Undergraduate research project for doing MIDI music generation and error correction.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
+              window.location.href = "/projects/music-transfomers/";
             },},{id: "projects-raider-stats",
           title: 'Raider Stats',
           description: "Deployed a website for tracking soccer practice statistics using AWS services, later mentoring undergraduate students to continue development on this.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
+              window.location.href = "/projects/raider-stats/";
+            },},{id: "projects-soccer-computer-vision",
+          title: 'Soccer Computer Vision',
+          description: "Mentored a group of undergraduate soccer players in creating a soccer computer vision system for MSOE.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/soccer-vision/";
+            },},{id: "projects-strategy-masking-in-coup",
+          title: 'Strategy Masking in Coup',
+          description: "Controlling lying behavior with a novel technique based on reward decomposition.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/strategy-masking/";
             },},{
         id: 'social-email',
         title: 'email',

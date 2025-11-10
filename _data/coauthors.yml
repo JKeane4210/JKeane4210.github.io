@@ -1,34 +1,27 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"kedziora":
+  - firstname: ["Jeremy"]
+    url: https://www.msoe.edu/directory/profile/jeremy.kedziora/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"yoder":
+  - firstname: ["Josiah"]
+    url: https://www.msoe.edu/directory/profile/josiah.yoder/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"wang":
+  - firstname: ["Yiyang"]
+    url: https://www.msoe.edu/directory/profile/yiyangian.wang/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"manchado":
+  - firstname: ["Adrian"]
+    url: https://www.linkedin.com/in/adrian-manchado/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"cellio":
+  - firstname: ["Tanner"]
+    url: https://www.linkedin.com/in/tanner-cellio/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"conner":
+  - firstname: ["Michael"]
+    url: https://www.linkedin.com/in/michael-conner-477b9b132/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"keyser":
+  - firstname: ["Sam"]
+    url: https://www.linkedin.com/in/samuel-keyser/

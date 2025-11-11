@@ -1,16 +1,12 @@
 {
   "basics": {
     "name": "Jonathan Keane",
-    "label": "Aspiring ML Researcher",
+    "label": "ML Researcher",
     "email": "jtkeane8@gmail.com",
     "phone": "(847) 323-2297",
-    "url": "https://JKeane4210.github.io",
-    "summary": "Aspiring researcher with M.S. in Machine Learning and B.S in Computer Science. Interested in explainable and interpretable AI systems to promote ethical use of advanced technologies. Seeking research opportunities to further develop expertise in the fast-evolving AI field.",
+    "url": "https://jkeane4210.github.io/",
+    "summary": "I want to understand why AI models learn specific solutions when not specified mathematically. By understanding how these models think better, we can make them safer/more capable in the future. As a result, I am interested in AI interpretability, NLP for language understanding, and RL for reasoning.",
     "profiles": [
-      {
-        "network": "LinkedIn",
-        "url": "https://linkedin.com/in/jonathan--keane/"
-      },
       {
         "network": "GitHub",
         "url": "https://github.com/JKeane4210"
@@ -39,96 +35,198 @@
     {
       "name": "Direct Supply",
       "position": "Data Scientist",
+      "location": "Milwaukee, WI",
       "startDate": "2023-03",
       "endDate": "",
-      "summary": "Worked on multiple data science and ML systems for senior living solutions. Led and collaborated on projects involving embeddings, LLM evaluations, and AI-based search.",
+      "summary": "Worked on multiple data science and ML systems for senior living solutions.",
       "highlights": [
-        "Built menu planning tool with AI-based recommendations",
-        "Led RAG-based product type suggestion system using Databricks, Postgres (pgvector), and AWS",
-        "Developed AI-powered product search system; became company trade secret"
+        "Product Search Tool: Worked within a team to develop product search system that became a trade secret in the company",
+        "Product Search Tool: Created method for enhancing dense embedding searches based on existing product relations",
+        "Menu Planning Tool: Developed a procedure to allow for smooth flipping of dense embeddings to newer embeddings models",
+        "Menu Planning Tool: Created a comprehensive evaluation system for several key workflows in system to evaluate different LLM options efficiently, communicating results in a series of white papers to share with other data scientists"
+        ]
+    },
+        {
+      "name": "Master's Capstone",
+      "position": "Researcher",
+      "startDate": "2024-01",
+      "endDate": "2024-08",
+      "summary": "Published in ICMLA 2025. Train reinforcement learning (RL) agents with reward decomposition for the social deduction game Coup to identify/eliminate lying in agents.",
+      "url": "https://arxiv.org/abs/2501.05501",
+      "highlights": [
+        "Implemented Coup environment in Python, along with a league play-based training process for agents",
+        "Created custom agent neural network in PyTorch with LSTM for representing hidden information, based on similar RL agents used for playing poker",
+        "Proposed novel technique called strategy masking that would use decomposed reward predictions to isolate lying behavior and systematically remove it to encourage agent honesty",
+        "Performed literature review to learn about explainability/interpretability techniques in RL environments"
       ]
     },
     {
-      "name": "CPA Leadership Institute",
-      "position": "Freelance Software Developer",
-      "summary": "Created a software tool to automate sending personalized LinkedIn messages using Python, Java, Selenium, and MySQL. Saved hundreds of hours in manual marketing.",
+      "name": "Undergraduate Researcher",
+      "position": "Researcher",
+      "startDate": "2022-09",
+      "endDate": "2023-05",
+      "summary": "Published in MICS 2023 (Oral). Build an understanding of the state-of-the-art Transformer model, design an experiment to understand/improve the state-of-the-art model further, and write/publish a paper describing results.",
       "highlights": [
-        "Designed GUI for managing and sending LinkedIn messages",
-        "Implemented autocomplete contact search feature",
-        "Delivered SaaS solution sending over 5,000 automated messages"
+        "Performed literature review to understand the architecture and internal mechanisms of a Transformer",
+        "Proposed an experiment to improve upon the state-of-the-art model, and adjusted Python repository's code for training model with experimental adjustments",
+        "Presented research paper in regional conference and MSOE's ROSIE Supercomputer Challenge, sponsored by NVIDIA, winning 1st prize in the innovation challenge"
       ]
+    }
+  ],
+  "mentoring" : [
+    {
+      "organization": "MSOE AI Club",
+      "position": "Research Mentor",
+      "startDate": "2025-09",
+      "endDate": "",
+      "summary": "Train a music transformer for generating music and apply recent interpretability research from Anthropic to understand how transformers represent music internally.",
+      "highlights": [
+        "Mentored four undergraduates, teaching them about transformers and AI interpretability research",
+        "Currently guiding each group member through creating a music transformer, aiding the group with meetings discussing AI concepts or tools for working more effectively on a supercomputer"
+      ]
+    },
+    {
+      "organization": "MSOE AI Club",
+      "position": "Research Mentor",
+      "startDate": "2024-09",
+      "endDate": "2025-05",
+      "summary": "Published in MICS 2025 (Oral). Create a computer vision system to extract individual player statistics based on game footage.",
+      "highlights": [
+        "Mentored five undergraduates, teaching them about common computer vision techniques",
+        "Created framework for creating SAM 2 prompts from finetuned YOLO player predictions to create individual player video segmentations",
+        "Trained a CNN in TensorFlow for key point detection and applied homography to field images",
+        "Team presented research at conference and competed in MSOE's ROSIE Supercomputer Challenge, sponsored by NVIDIA, winning 3rd prize"
+      ]
+    },
+    {
+      "organization": "MSOE Men's Soccer Team",
+      "position": "Raider Stats Soccer Tracking Website Mentor/Developer",
+      "startDate": "2024-01",
+      "endDate": "",
+      "summary": "Create website to track MSOE soccer practice results and promote team competition.",
+      "highlights": [
+        "Mentored 5 undergraduate students to learn more about databases, websites, and deployment",
+        "Used AWS resources (Amplify, S3, Elastic Container Registry, API Gateway, Lambda, RDS) to host a website written in React and backend API services written in Python",
+        "Developed custom database schema in Postgres SQL and login system with JWTs for secure API access",
+        "Website has been successfully used by the MSOE men's soccer team for 4 seasons and the men's soccer coach is actively requesting more features"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "FIRST FTC Robotics Mentor",
+      "position": "Coding Mentor",
+      "location": "MSOE STEM Center",
+      "startDate": "2023-12",
+      "endDate": "2024-03",
+      "summary": "Mentored high school robotics team.",
+      "highlights": []
+    },
+    {
+      "organization": "Walnut Way Servant Leadership Project",
+      "position": "Volunteer",
+      "location": "MSOE Honors Program",
+      "startDate": "2020-09",
+      "endDate": "2021-05",
+      "summary": "Community service project through MSOE Honors Program.",
+      "highlights": []
     }
   ],
   "projects": [
     {
-      "name": "Mentor \u2013 Computer Vision Soccer Analysis",
-      "organization": "MSOE AI Club",
-      "startDate": "2024-08",
-      "summary": "Mentored undergraduates building a computer vision system for player stats extraction. Helped develop CNN and segmentation framework; project won 3rd prize in innovation challenge.",
-      "highlights": [
-        "Guided YOLO and SAM 2 integration for player tracking",
-        "Built CNN-based field keypoint detection model",
-        "Helped team present and compete successfully"
-      ]
-    },
-    {
-      "name": "Limiting Lying for RL Agents in a Social Deduction Game",
-      "organization": "MSOE",
-      "startDate": "2024-01",
-      "endDate": "2024-08",
-      "url": "https://arxiv.org/abs/2501.05501",
-      "summary": "Trained reinforcement learning agents with reward decomposition for the social deduction game Coup to identify and eliminate deceptive behavior. Implemented the environment and league-based training in Python with PyTorch LSTMs.",
-      "highlights": [
-        "Literature review on interpretability in RL",
-        "Implemented Coup environment and LSTM agents",
-        "Developed strategy masking technique for honesty in agents"
-      ]
-    },
-    {
-      "name": "Deep Learning Music Transformer Undergraduate Research",
-      "organization": "MSOE",
-      "startDate": "2022-09",
-      "endDate": "2023-05",
-      "summary": "Explored Transformer architectures for music generation using the ROSIE supercomputer. Presented findings in a regional conference and won 1st place in innovation challenge.",
-      "highlights": [
-        "Performed literature review on Transformer mechanisms",
-        "Developed training automation using Slurm on ROSIE supercomputer",
-        "Presented and published research results"
-      ]
-    },
-    {
       "name": "Slime Particle Simulation",
-      "organization": "MSOE Machine Learning Program",
-      "summary": "Created a GPU-parallelized simulation of slime mold particle dynamics using CUDA C. Used real-time visualization via CUDA GL and explored food-type differentiation.",
+      "organization": "MS Machine Learning Independent Study Project",
+      "startDate": "2024-09",
+      "endDate": "2024-12",
+      "summary": "Create a slime particle simulation project to demonstrate capabilities with creating highly parallelizable algorithms on a GPU.",
       "highlights": [
-        "Implemented physarum polycephalum particle simulation",
-        "Optimized GPU performance with CUDA parallelism",
-        "Produced visual real-time simulation output"
+        "Implemented a simulation of physarum polycephalum particles as a GPU-parallelized particle simulation in CUDA C based on existing research of these simulations",
+        "Adjusted algorithm to allow for particles to take on different colors based on different 'food types' being consumed",
+        "Used CUDA GL to create a real-time visualization of the slime simulation as a final deliverable of the project"
       ]
     },
     {
-      "name": "MSOE NCAA Men\u2019s Soccer Team",
-      "organization": "MSOE Athletics",
-      "startDate": "2020-08",
-      "summary": "Captain and lead tutor balancing athletics and academics. Led training, organized tutoring, and built leadership and communication skills through competition and mentorship.",
+      "name": "LinkedIn Message Automation",
+      "organization": "CPA Leadership Institute",
+      "position": "Paid Freelance Project",
+      "startDate": "2020-06",
+      "endDate": "2022-07",
+      "summary": "Create piece of software that automates the process of sending individual LinkedIn messages to groups of contacts in the LinkedIn network of CPA Leadership Institute.",
       "highlights": [
-        "Captain and study tables lead tutor",
-        "Organized team practices and tutoring sessions",
-        "Developed teamwork and leadership under pressure"
+        "Worked with Director of Communications to create programs in Java and Python to automate LinkedIn message sends (scraped/interacted with HTML via Selenium), progressing towards a final GUI application",
+        "Stored contact database in SQL database with localized MySQL server",
+        "Implemented from scratch autocomplete searching of contacts stored in the database using custom data structures. Used this functionality as a contact search feature in the final GUI",
+        "Negotiated initial developer fee and payment plan for use of program as software-as-a-service. The system replaced a manual process by sending over 5,000 messages automatically, allowing for more regular marketing to reach prospects directly with far less time spent by the marketing department"
       ]
     },
     {
-      "name": "MSOE Competitive Programming Team & Leadership Roles",
-      "organization": "MSOE",
+      "name": "MyYoutube Filter",
+      "organization": "Personal Project",
+      "startDate": "2020-11",
+      "endDate": "2021-03",
+      "summary": "Produced Desktop application to utilize YouTube API to retrieve only the most recent videos from a user's YouTube subscriptions to help users improve productivity by reducing clicks on mildly interesting content on normal YouTube homepage.",
+      "highlights": [
+        "Created project using Node JS and NWJS to create Desktop application based around JavaScript code",
+        "Allowed user to login using OAuth authentication to permit application to get user-specific YouTube subscriptions and load most recent videos from specified YouTube channels",
+        "Currently use the application personally during busy periods at school to make sure that I am staying productive"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Class Respondent",
+      "date": "2023-12",
+      "awarder": "Milwaukee School of Engineering"
+    },
+    {
+      "title": "Finalist - ICPC North American Championship",
+      "date": "2023-05"
+    },
+    {
+      "title": "1st Place - ROSIE Supercomputer Competition (sponsored by NVIDIA)",
+      "date": "2023-05"
+    },
+    {
+      "title": "1st Place - Midwest Instruction and Computing Symposium Programming Competition",
+      "date": "2023-04"
+    },
+    {
+      "title": "3rd Place - ICPC North Central North American Regional",
+      "date": "2023-02"
+    },
+    {
+      "title": "Finalist - ICPC North American Championship",
+      "date": "2022-05"
+    },
+    {
+      "title": "1st Place - Midwest Instruction and Computing Symposium Programming Competition",
+      "date": "2022-04"
+    },
+    {
+      "title": "3rd Place - ICPC North Central North American Regional",
+      "date": "2022-02"
+    }
+  ],
+  "cocurricular" : [
+    {
+      "name": "MSOE NCAA Men's Soccer Team",
+      "position": "Captain, Study Tables Lead Tutor",
       "startDate": "2020-09",
-      "endDate": "2024-03",
-      "summary": "Active involvement in programming competitions and community service initiatives.",
+      "endDate": "2023-11",
+      "summary": "Balanced athletics with academics while serving as team leader and academic mentor.",
       "highlights": [
-        "ICPC National Competition 2022 & 2023 participant",
-        "FIRST FTC Robotics Mentor (2023\u20132024)",
-        "Google Developer Student Club Co-Lead (2021\u20132022)",
-        "Walnut Way Servant Leadership Project participant (2020\u20132021)"
+        "During fall season, balanced 2-hour daily practice and game travel (20 hrs/wk) with full-class schedule",
+        "As study tables lead tutor, organized weekly 2-hour sessions for younger students to come in and work on homework/get tutoring help",
+        "Tutored teammates in calculus/math, programming, and physics"
       ]
+    },
+    {
+      "name": "MSOE Competitive Programming Team",
+      "position": "Team Member",
+      "startDate": "2020-08",
+      "endDate": "2023-05",
+      "summary": "Participated in competitive programming competitions including ICPC.",
+      "highlights": []
     }
   ],
   "skills": [
@@ -136,45 +234,42 @@
       "name": "Programming Languages",
       "keywords": [
         "Python",
-        "SQL (Postgres/MySQL)",
-        "React",
+        "SQL",
         "CUDA C/C++",
-        "JavaScript",
-        "Java"  
-      ]
-    },
-    {
-      "name": "AI Models",
-      "keywords": [
-        "LLMs",
-        "Embedding Models",
-        "YOLO",
-        "SAM 2",
-        "PyTorch",
-        "Transformers"
+        "C#",
+        "Java",
+        "React/JavaScript"
       ]
     },
     {
       "name": "Software Tools",
       "keywords": [
+        "Git",
+        "Docker",
         "AWS",
         "Databricks",
-        "Docker",
-        "Git",
-        "Jupyter Notebook",
-        "Pandas",
-        "NumPy",
-        "Scrum",
-        "Selenium",
         "Slurm",
-        "pgvector",
-        "Unity"
+        "Jupyter",
+        "Unity Game Engine",
+        "Webscraping (Selenium)"
       ]
     },
     {
-      "name": "Other",
+      "name": "AI Techniques/Libraries",
       "keywords": [
-
+        "PyTorch",
+        "TensorFlow",
+        "Transformers",
+        "Embedding Models",
+        "Reinforcement Learning",
+        "Sparse Autoencoders (SAEs)",
+        "LSTMs",
+        "RNNs",
+        "CNNs",
+        "DQN/Q-Learning",
+        "Self-Play",
+        "League Play",
+        "PPO"
       ]
     }
   ],
@@ -185,7 +280,7 @@
     },
     {
       "language": "Spanish",
-      "fluency": "Intermediate"
+      "fluency": "Advanced"
     }
   ]
 }

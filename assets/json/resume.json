@@ -69,7 +69,7 @@
       "highlights": [
         "Performed literature review to understand the architecture and internal mechanisms of a Transformer",
         "Proposed an experiment to improve upon the state-of-the-art model, and adjusted Python repository's code for training model with experimental adjustments",
-        "Presented research paper in regional conference and MSOE's ROSIE Supercomputer Challenge, sponsored by NVIDIA, winning 1st prize in the innovation challenge"
+        "Presented research paper in regional conference in and MSOE's ROSIE Supercomputer Challenge, sponsored by NVIDIA, winning 1st prize, $5000, and 2 NVIDIA GPUs"
       ]
     }
   ],
@@ -95,7 +95,7 @@
         "Mentored five undergraduates, teaching them about common computer vision techniques",
         "Created framework for creating SAM 2 prompts from finetuned YOLO player predictions to create individual player video segmentations",
         "Trained a CNN in TensorFlow for key point detection and applied homography to field images",
-        "Team presented research at conference and competed in MSOE's ROSIE Supercomputer Challenge, sponsored by NVIDIA, winning 3rd prize"
+        "Team presented research at conference and competed in MSOE's ROSIE Supercomputer Challenge, sponsored by NVIDIA, winning 3rd prize, $3000, 2 NVIDIA GPUs, and a NVIDIA Jetson Nano"
       ]
     },
     {

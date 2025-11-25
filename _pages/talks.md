@@ -9,7 +9,15 @@ nav_order: 4
 
 ## MSOE Commencement Speech
 
-I was selected as the class respondent for the fall graduating class of 2023 for the Milwaukee School of Engineering.
+I was selected as the class respondent for the fall graduating class of 2023 for the Milwaukee School of Engineering. For this, I was the commencement speaker at the Fall 2023 graduation ceremony.
+
+<div class="portion-50 w-y-offset">
+    <iframe width="100%" height="500px" src="https://www.youtube.com/embed/dKDhXie6ZcQ?si=ENZGdG-3zHUGgA6z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="caption">
+    My class respondent speech for Fall 2023 commencement.
+</div>
+
 
 ## MSOE's ROSIE Supercomputer Competition
 

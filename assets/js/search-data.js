@@ -52,6 +52,11 @@ ninja.data = [{
           description: "Undergraduate research project for doing MIDI music generation and error correction.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/music-transfomers.html";
+            },},{id: "projects-music-transformer-interpretability",
+          title: 'Music Transformer Interpretability',
+          description: "MSOE AI club research group for applying a series of modern interpretability techniques to a model trained for music generation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/music-transformer-interpretability.html";
             },},{id: "projects-raider-stats",
           title: 'Raider Stats',
           description: "Deployed a website for tracking soccer practice statistics using AWS services, later mentoring undergraduate students to continue development on this.",

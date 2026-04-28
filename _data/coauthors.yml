@@ -25,3 +25,10 @@
 "keyser":
   - firstname: ["Sam"]
     url: https://www.linkedin.com/in/samuel-keyser/
+
+"schroedl":
+  - firstname: ["Brian"]
+    url: https://www.linkedin.com/in/brian-schroedl/
+
+"muntean":
+  - firstname: ["Darius"]

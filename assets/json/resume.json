@@ -44,9 +44,9 @@
         "Product Search Tool: Created method for enhancing dense embedding searches based on existing product relations",
         "Menu Planning Tool: Developed a procedure to allow for smooth flipping of dense embeddings to newer embeddings models",
         "Menu Planning Tool: Created a comprehensive evaluation system for several key workflows in system to evaluate different LLM options efficiently, communicating results in a series of white papers to share with other data scientists"
-        ]
+      ]
     },
-        {
+    {
       "name": "Master's Capstone",
       "position": "Researcher",
       "startDate": "2024-01",
@@ -73,7 +73,20 @@
       ]
     }
   ],
-  "mentoring" : [
+  "mentoring": [
+    {
+      "organization": "MSOE AI Club",
+      "position": "Research Mentor",
+      "startDate": "2025-09",
+      "endDate": "2026-05",
+      "summary": "Led a year-long undergraduate research project on understanding music transformers through modern interpretability techniques, culminating in poster presentations at MICS 2026 and MSOE’s ROSIE competition.",
+      "highlights": [
+        "Mentored three undergraduate researchers in implementing decoder-only music transformers for MIDI generation using PyTorch or TensorFlow",
+        "Delivered lectures building mathematical foundations of transformer architectures and attention mechanisms",
+        "Guided exploration of interpretability methods including direction vectors, induction heads, and patchscoping applied to music models",
+        "Supported students in translating research findings into poster presentations for MICS 2026 and the ROSIE competition"
+      ]
+    },
     {
       "organization": "MSOE AI Club",
       "position": "Research Mentor",
@@ -207,7 +220,7 @@
       "date": "2022-02"
     }
   ],
-  "cocurricular" : [
+  "cocurricular": [
     {
       "name": "MSOE NCAA Men's Soccer Team",
       "position": "Captain, Study Tables Lead Tutor",

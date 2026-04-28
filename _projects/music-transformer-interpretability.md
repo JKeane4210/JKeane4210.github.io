@@ -22,12 +22,12 @@ With these works, we demonstrated our findings as a poster at MICS 2026 at UW Ea
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mics_26.jpg" title="Darius, Brian, and Tanner showing off their poster at MICS 2026" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mics_26.jpg" title="Darius, Tanner, and Brian showing off their poster at MICS 2026" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/rosie_poster_26.jpg" title="ROSIE Competition 2026" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    On the left, Darius, Brian, and Tanner showing off their poster at MICS 2026. On the right, a picture of Brian and Darius presenting an updated version of our poster at MSOE's ROSIE competition.
+    On the left, Darius, Tanner, and Brian (left to right) showing off their poster at MICS 2026. On the right, a picture of Brian and Darius presenting an updated version of our poster at MSOE's ROSIE competition.
 </div>

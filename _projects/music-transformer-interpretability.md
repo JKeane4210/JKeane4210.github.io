@@ -18,7 +18,7 @@ In the second phase of the project, we discussed interpretability concepts such 
 
 - Patchscoping: A technique used for editing transformer generations by taking residual stream outputs from one prompt and adding it into a different prompt to produce different results. This was mapped to the domain of music by analyzing the ability change next note predictions using the residual stream from different scales.
 
-With these works, we demonstrated our findings as a poster at MICS 2026 at UW Eau Claire, as well as in MSOE's ROSIE competition.
+With these works, we demonstrated our findings as a poster at MICS 2026 at UW Eau Claire {% cite celliot2026musictransformerinterpretability %}, as well as in MSOE's ROSIE competition.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

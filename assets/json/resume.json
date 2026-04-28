@@ -90,17 +90,6 @@
     {
       "organization": "MSOE AI Club",
       "position": "Research Mentor",
-      "startDate": "2025-09",
-      "endDate": "",
-      "summary": "Train a music transformer for generating music and apply recent interpretability research from Anthropic to understand how transformers represent music internally.",
-      "highlights": [
-        "Mentored four undergraduates, teaching them about transformers and AI interpretability research",
-        "Currently guiding each group member through creating a music transformer, aiding the group with meetings discussing AI concepts or tools for working more effectively on a supercomputer"
-      ]
-    },
-    {
-      "organization": "MSOE AI Club",
-      "position": "Research Mentor",
       "startDate": "2024-09",
       "endDate": "2025-05",
       "summary": "Published in MICS 2025 (Oral). Create a computer vision system to extract individual player statistics based on game footage.",
